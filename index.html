@@ -2,26 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Christina's Portfolio</title>
+    <title>Christina Bayley</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+        <!--    Extra small <576px	Small ≥576px	Medium ≥768px	Large ≥992px	Extra large ≥1200px
+.container	100%	540px	720px	960px	1140px
+.container-sm	100%	540px	720px	960px	1140px
+.container-md	100%	100%	720px	960px	1140px
+.container-lg	100%	100%	100%	960px	1140px
+.container-xl	100%	100%	100%	100%	1140px
+.container-fluid	100%	100%	100%	100%	100%  -->
+
+
 <body>
-    <h1>Welcome to Christina's Portfolio</h1>
-    <br>
-    <img src="assets/under-construction.jpg" alt="under construction">
-    <br>
-    <p>
-        This is a WIP page for Christina's portfolio.
-        <br> <br>
-        Check back often for updates!
-        <br> <br>
-        While you wait, would you like to play a game?
-        <ul>
-            <li><a href="https://scratch.mit.edu/projects/394318457/" target="_blank">Shoot the Mice!</a></li>
-            <li><a href="https://scratch.mit.edu/projects/393468181/" target="_blank">Catch the Cheesy Poofs!</a></li>
-            <li><a href="https://scratch.mit.edu/projects/393468102/" target="_blank">Count my Clicks!</a></li>
-        </ul>
-    </p>
+    <header>
+        <nav class="row">
+            <div class="col-md-1 col-lg-1 link"> 
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 name"> 
+                <a class="navbar-brand whitesmoke" href="index.html">Christina Bayley</a>
+            </div>
+            <div class="col-md-5 col-lg-5 link"> 
+            </div>
+            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
+                <a class="nav-item nav-link slategray" href="index.html">About</a>
+            </div>
+            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
+                <a class="nav-item nav-link slategray" href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
+                <a class="nav-item nav-link slategray" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid">
+        <article class="row">
+            <article class="col-md-9 page-header box">
+                <h1>About Me</h1>
+                <hr>
+                <br>
+                <article class="row">
+                    <article class="col-xs-6 col-sm-5 col-md-4 col-lg-3">
+                        <img class="center" id="img-thumbnail" src="assets/cbayley.jpg" alt="Christina Bayley">
+                    </article>
+                    <article class="col-xs-4 col-sm-7 col-md-8 col-lg-9 text-wrap">
+                    <p>
+                        Hello! My name is Christina Bayley. I mostly go by Christina but my family calls me Chris. 
+                        I also go by Chrisi when bowling or bartending. I work full-time as a Senior Application 
+                        Developer at an SAP consulting company out of southern California, which gives me the 
+                        luxury of working from my home in Woodbury, NJ. When I'm not creating something in code, 
+                        you can find me camping, or glamping as many would call it! I also enjoy reading and 
+                        learning new things!
+                    </p>
+                    </article>
+                    <article class="col-xs-2">
+                    </article>
+                </article>
+            </article>
+            <article class="col-md-3">
+                <article class="card mt-2 text-center">
+                    <article class="card-body">
+                        <!--<h5 class="card-title">Contact Info</h5>-->
+                        <h6 class="card-subtitle mb-2">Find Me Online</h6>
+                        <p class="card-text cardp">
+                            <a href="https://www.linkedin.com/in/christinabayley/" target="_blank">-LinkedIn-</a><br>
+                            <a href="https://github.com/cbayley-edu?tab=repositories" target="_blank">-GitHub-</a><br>
+                            <a href="https://www.stellaroneconsulting.com/stellar-one-consulting-the-stellar-one-team" target="_blank">-S1C-</a><br>
+                            <a href="mailto:christinabayley@comcast.net">-Email Me-</a>
+                        </p>
+                    </article>
+                </article>
+            </article>
+        </article>
+    </section>
+
+    <footer class="footerLocation">
+        <article class="row">
+            <article class="col-md-12 footerLine">
+            </article>
+        </article>
+        <article class="row">
+            <article class="col-md-12 footerCopyright">
+                &copy; Copyright Christina Bayley
+            </article>
+        </article>
+    </footer>
+
+
+      <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
