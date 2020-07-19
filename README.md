@@ -16,7 +16,7 @@ There are convenient links across the top to allow you to quickly access the ite
 
 ![navigation](./assets/img/readme-imgs/nav-bar.png)
 
-The work link will take you to My Portfolio where you can click on the top image to view the actual application or click on the bottom image to view the repository for the application.
+The work link will take you to My Portfolio where you can click on the top image to view the actual application or click on the bottom image to view the repository for the application. Hover over any of the pictures for a description of where it will take you.
 
 ![my portfolio](./assets/img/readme-imgs/my-portfolio.png)
 
