@@ -2,21 +2,21 @@
 ## Unit 08 Homework: Professional Materials
 
 ### TOC
-* [Application](#application)
 * [Overview](#overview)
+* [Application](#application)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
-
-## Application
-Access my portfolio here: https://cbayley-edu.github.io/
-Access the repo for my portfolio here: https://github.com/cbayley-edu/cbayley-edu.github.io
 
 ## Overview
 My portfolio contains information about me!  
   * You can read my bio, view some applications I've written, and see the "code" behind websites through my GitHub repo. 
   * I've included social media links (LinkedIn and Twitter), a link to my SaaSsySAP'er blog, and a link to my employer's page.
   * You can download my resume, email me, and call me.
+
+## Application
+Access my portfolio here: https://cbayley-edu.github.io/
+Access the repo for my portfolio here: https://github.com/cbayley-edu/cbayley-edu.github.io
 
 ## Usage
 #### There are convenient links across the top to allow you to quickly access the items mentioned above, or you can simply scroll down.
