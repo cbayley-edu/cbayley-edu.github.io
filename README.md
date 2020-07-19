@@ -20,13 +20,13 @@ My portfolio contains information about me!
 
 ## Usage
 #### There are convenient links across the top to allow you to quickly access the items mentioned above, or you can simply scroll down.
-    ![navigation](./assets/img/readme-imgs/nav-bar.png)
+   ![navigation](./assets/img/readme-imgs/nav-bar.png)
 
 #### The work link will take you to My Portfolio where you can click on the top image to view the actual application or click on the bottom image to view the repository for the application. Hover over any of the pictures for a description of where it will take you.
-    ![my portfolio](./assets/img/readme-imgs/my-portfolio.png)
+   ![my portfolio](./assets/img/readme-imgs/my-portfolio.png)
 
 #### Clicking Contact will allow you to contact me through email or phone. From here you can also access various links as shown below.
-    ![contact me and links](./assets/img/readme-imgs/contact-me-and-links.png)
+   ![contact me and links](./assets/img/readme-imgs/contact-me-and-links.png)
 
 ## Credits
 Portfolio template downloaded from: https://dribbble.com/shots/2190459-Serenity-An-HTML5-Portfolio-Template
