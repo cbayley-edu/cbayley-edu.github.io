@@ -94,7 +94,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#four').on({
     mouseenter: function(){
-      $('#img4').css("height", "75px")
+      $('#img4').css("height", "125px")
       $('#img4').css("opacity", "1")
     }
   })
@@ -103,7 +103,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#five').on({
     mouseenter: function(){
-      $('#img5').css("height", "75px")
+      $('#img5').css("height", "125px")
       $('#img5').css("opacity", "1")
     }
   })
@@ -112,7 +112,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#six').on({
     mouseenter: function(){
-      $('#img6').css("height", "75px")
+      $('#img6').css("height", "125px")
       $('#img6').css("opacity", "1")
     }
   })
