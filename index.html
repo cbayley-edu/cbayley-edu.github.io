@@ -1,104 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+  <head>
+    <!-- By Christopher Briddock http://behance.net/Chris-B-->
+    <title>Portfolio: Christina L Bayley</title>
     <meta charset="UTF-8">
-    <title>Christina Bayley</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-        <!--    Extra small <576px	Small ≥576px	Medium ≥768px	Large ≥992px	Extra large ≥1200px
-.container	100%	540px	720px	960px	1140px
-.container-sm	100%	540px	720px	960px	1140px
-.container-md	100%	100%	720px	960px	1140px
-.container-lg	100%	100%	100%	960px	1140px
-.container-xl	100%	100%	100%	100%	1140px
-.container-fluid	100%	100%	100%	100%	100%  -->
-
-
-<body>
+    <!-- Facebook meta tags-->
+    <meta property="og:title" content="Serenity - A Portfolio Template">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Serenity - A Portfolio Template">
+    <!-- Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=Edge">
+    <meta name="robots" content="index, follow">
+    <!-- Description and keywords for search engines-->
+    <meta name="description" content="This is a portfolio template, coded in HTML 5 and CSS 3!">
+    <meta name="keywords" content="Portfolio Template HTML5 CSS3 Javascript Custom">
+    <meta name="msapplication-TileColor" content="#cdcec0">
+    <meta name="msapplication-TileImage" content="./img/letter-imgs/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Style sheets-->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- font link here, change to another google font if you wish!-->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- begin favicon stuff-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/letter-imgs/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/letter-imgs/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/letter-imgs/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/letter-imgs/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/letter-imgs/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/letter-imgs/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/letter-imgs/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/letter-imgs/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/letter-imgs/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./assets/img/letter-imgs/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./assets/img/letter-imgs/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./assets/img/letter-imgs/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./assets/img/letter-imgs/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./assets/manifest.json">
+    <script  src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header>
-        <nav class="row">
-            <div class="col-md-1 col-lg-1 link"> 
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 name"> 
-                <a class="navbar-brand whitesmoke" href="index.html">Christina Bayley</a>
-            </div>
-            <div class="col-md-5 col-lg-5 link"> 
-            </div>
-            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
-                <a class="nav-item nav-link slategray" href="index.html">About</a>
-            </div>
-            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
-                <a class="nav-item nav-link slategray" href="portfolio.html">Portfolio</a>
-            </div>
-            <div class="navbar-nav col-sm-4 col-md-1 col-lg-1 link">
-                <a class="nav-item nav-link slategray" href="contact.html">Contact</a>
-            </div>
+      <div class="overlay-nav hidden">
+        <ul class="mobile">
+          <li><a href="#">HOME</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="about">ABOUT</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="work">WORK</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="contact-nav">CONTACT</a></li>
+        </ul>
+        <div class="close"></div>
+      </div>
+      <div class="container">
+        <div id="logo">CHRISTINA L BAYLEY</div>
+        <nav><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
+          <ul class="in">
+            <li><a href="#">HOME</a></li>
+          </ul>
+          <ul class="in">
+            <li><a href="#" class="about">ABOUT</a></li>
+          </ul>
+          <ul class="in">
+            <li><a href="#" class="work">WORK</a></li>
+          </ul>
+          <ul class="in">
+            <li><a href="#" class="contact-nav">CONTACT</a></li>
+          </ul>
         </nav>
+        <h1 id="jumbotron">Developer ∙ Technical Architect ∙ Database Admin</h1>
+        <h2 id="supporting-header">ERP Systems & CRM Systems</h2><a href="https://saassysaper.blogspot.com/" target="_blank" class="btn">My Blog</a>
+      </div>
     </header>
-
-    <section class="container-fluid">
-        <article class="row">
-            <article class="col-md-9 page-header box">
-                <h1>About Me</h1>
-                <hr>
-                <br>
-                <article class="row">
-                    <article class="col-xs-6 col-sm-5 col-md-4 col-lg-3">
-                        <img class="center" id="img-thumbnail" src="assets/cbayley.jpg" alt="Christina Bayley">
-                    </article>
-                    <article class="col-xs-4 col-sm-7 col-md-8 col-lg-9 text-wrap">
-                    <p>
-                        Hello! My name is Christina Bayley. I mostly go by Christina but my family calls me Chris. 
-                        I also go by Chrisi when bowling or bartending. I work full-time as a Senior Application 
-                        Developer at an SAP consulting company out of southern California, which gives me the 
-                        luxury of working from my home in Woodbury, NJ. When I'm not creating something in code, 
-                        you can find me camping, or glamping as many would call it! I also enjoy reading and 
-                        learning new things!
-                    </p>
-                    </article>
-                    <article class="col-xs-2">
-                    </article>
-                </article>
-            </article>
-            <article class="col-md-3">
-                <article class="card mt-2 text-center">
-                    <article class="card-body">
-                        <!--<h5 class="card-title">Contact Info</h5>-->
-                        <h6 class="card-subtitle mb-2">Find Me Online</h6>
-                        <p class="card-text cardp">
-                            <a href="https://www.linkedin.com/in/christinabayley/" target="_blank">-LinkedIn-</a><br>
-                            <a href="https://github.com/cbayley-edu?tab=repositories" target="_blank">-GitHub-</a><br>
-                            <a href="https://www.stellaroneconsulting.com/stellar-one-consulting-the-stellar-one-team" target="_blank">-S1C-</a><br>
-                            <a href="mailto:christinabayley@comcast.net">-Email Me-</a>
-                        </p>
-                    </article>
-                </article>
-            </article>
-        </article>
+    <section>
+      <div class="container">
+        <h1 class="port">Hello World!</h1>
+        <div class="self-pic"></div>
+        <!-- Change paragraph text here, add subheadings by using h2 or h3 tags -->
+        <p class="about-para">My technical adventure began many years ago when I would plug my Texas Instrument (TI) computer into our console television and write code from my 3-2-1 Contact magazine. When I was finished, I would sit in awe at a balloon, whose color I would type in a prompt, would bounce around the screen until I hit the 'p' key to pop it. I would then "record" my code onto an actual tape player so I could play my balloon game later.</p>
+        <p class="about-para">Technology amazes and fascinates me. One of my favorite topics is Artificial Intelligence (AI). I'll never forget my first Azure logic app that used a cognitive service to determine an email's "feelings". Who would have thought 10 years ago that our refrigerators could connect to the Internet and let us know when we need milk? Connected devices are becoming part of our daily lives. How nice is it that your washer or dryer knows when it needs service and can automatically make the appointment for you?</p>
+        <p class="about-para">I too have come a long way since my TI days. I've thoroughly enjoyed the adventure and embraced all of the new technologies I've learned along the way. I've had some great and patient mentors that have helped me on my journey and lended to my success. I started my career working on an ERP system. I learned how to write pretty complex reports, which helped me learn databases. Then I ventured into CRM systems. Having a strong database background, learning new systems came easy. I am extremely passionate about CRM and how important they are for companies. I invested a lot of time creating guidelines for best practice for configuring and implementing a successful CRM system. Throughout the later years of my career, I've dabbled with code, mostly JavaScript and C#. Recently, I started a new job working with an ERP system again. In my new position, I get to work on a vast realm of tasks. I love it! I love my job and I love the brilliant minds I get to work with on a daily basis.</p>
+        <p class="about-para">My newest adventure is attending a Full Stack Development Bootcamp. It's been very exciting learning new technologies as well as filling in blanks on technologies that I've been using for years, but haven't fully understood. I'm hoping to use my newfound knowledge to build an amazing customer portal! In the meantime, I'm still in the learning process. Be sure to check out my portfolio for some recent projects and assignments I've completed. Thanks for stopping by!</p>
+      </div>
     </section>
-
-    <footer class="footerLocation">
-        <article class="row">
-            <article class="col-md-12 footerLine">
-            </article>
-        </article>
-        <article class="row">
-            <article class="col-md-12 footerCopyright">
-                &copy; Copyright Christina Bayley
-            </article>
-        </article>
+    <section>
+      <!-- edit the H2 text if you need to-->
+      <h2 class="port">My Portfolio</h2>
+      <div class="container">
+        <div class="flex">
+          <!-- change the links of the images and project title here!-->
+          <figure id="one">
+            <figcaption id="img1" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-1.png" alt=""></a>
+          </figure>
+          <figure id="two">
+            <figcaption id="img2" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-2.png" alt=""></a>
+          </figure>
+          <figure id="three">
+            <figcaption id="img3" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-3.png" alt=""></a>
+          </figure>
+          <figure id="four">
+            <figcaption id="img4" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-4.png" alt=""></a>
+          </figure>
+          <figure id="five">
+            <figcaption id="img5" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-5.png" alt=""></a>
+          </figure>
+          <figure id="six">
+            <figcaption id="img6" class="overlay">Project Title Goes Here!</figcaption><a href="http://externallinkgoeshere.co.uk" target="_blank"><img src="./assets/img/photo-6.png" alt=""></a>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="grey">
+      <div class="container">
+        <!-- edit this h2 and paragraph text here!-->
+        <h2 class="contact">Contact Me!</h2>
+        <p class="contact">Whether it's a question or you want to talk about your latest project, feel free to reach out to me!</p><a href="mailto:christinabayley@comcast.net" class="contact-button">Email Me!</a>
+        <div class="flex">
+          <div class="social-media"><a href="https://twitter.com/cbayley_mscrm" target="_blank">Twitter</a><a href="https://www.linkedin.com/in/christinabayley/" target="_blank">LinkedIn</a><a href="./assets/download/resume" target="_blank" download="ChristinaBayley-resume.pdf">Resume</a><a href="https://saassysaper.blogspot.com/" target="_blank">Blog</a></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p class="foot">&copy; Christina Bayley 2020</p>
+      </div>
     </footer>
-
-
-      <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</body>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
