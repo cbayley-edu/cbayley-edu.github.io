@@ -16,7 +16,6 @@ My portfolio contains information about me!
 
 ## Application
 Access my portfolio here: https://cbayley-edu.github.io/
-
 Access the repo for my portfolio here: https://github.com/cbayley-edu/cbayley-edu.github.io
 
 ## Usage
