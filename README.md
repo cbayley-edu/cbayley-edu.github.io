@@ -1,18 +1,26 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Unit 08 Project 1 Homework: Professional Materials
+# My Portfolio
 
-Welcome to your personal Weather Dashboard that will give you weather for your desired location. Once you search for a city, it will save your previous searches as easy to click buttons. Use these buttons to view the weather for the selected city. You will always be presented with the last city you searched for when you revisit the page.
+## Overview
 
-Access the application here: https://cbayley-edu.github.io/weather-dashboard/
+Access my portfolio here: https://cbayley-edu.github.io/
 
-![weather dashboard](./assets/imgs/weather-dashboard.jpg)
+My portfolio contains information about me!  
+  * You can read my bio, view some applications I've written, and see the "code" behind websites through my GitHub repo. 
+  * I've included social media links (LinkedIn and Twitter), a link to my SaaSsySAP'er blog, and a link to my employer's page.
+  * You can download my resume, email me, and call me.
 
+## How to use the application
 
-# How to use the application
+There are convenient links across the top to allow you to quickly access the items mentioned above, or you can simply scroll down.
 
-Search for a city by typing in the name and clicking search.
+![navigation](./assets/img/readme-imgs/nav-bar.png)
 
-![city search](./assets/imgs/city-search.jpg)
+The work link will take you to My Portfolio where you can click on the top image to view the actual application or click on the bottom image to view the repository for the application.
 
-Use a previous search by clicking on a button to display the weather for that location
+![my portfolio](./assets/img/readme-imgs/my-portfolio.png)
 
-![previous city search](./assets/imgs/view-previous-search.jpg)
+Clicking Contact will allow you to contact me through email or phone. From here you can also access various links as shown below.
+
+![contact me and links](./assets/img/readme-imgs/contact-me-and-links.png)
+
