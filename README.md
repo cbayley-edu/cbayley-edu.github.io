@@ -24,3 +24,7 @@ Clicking Contact will allow you to contact me through email or phone. From here 
 
 ![contact me and links](./assets/img/readme-imgs/contact-me-and-links.png)
 
+## Credits
+
+Portfolio template downloaded from: https://dribbble.com/shots/2190459-Serenity-An-HTML5-Portfolio-Template
+Designed by Chris Briddock
