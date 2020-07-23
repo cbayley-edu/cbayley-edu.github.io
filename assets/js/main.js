@@ -18,25 +18,25 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.about').click(function() {
     $('html, body').animate({
-      scrollTop: $('.self-pic').offset().top
+      scrollTop: $('.about-link').offset().top
     }, 1200);
   });
 });
 
 //Portfolio Link going to flexbox portfolio section
-$(document).ready(function() {
-  $('.work').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.flex').offset().top
-    }, 1200);
-  });
-});
+// $(document).ready(function() {
+//   $('.work').click(function() {
+//     $('html, body').animate({
+//       scrollTop: $('.flex').offset().top
+//     }, 1200);
+//   });
+// });
 
 // Contact link going to contact section
 $(document).ready(function() {
   $('.contact-nav').click(function() {
     $('html, body').animate({
-      scrollTop: $('.contact').offset().top
+      scrollTop: $('.contact-link').offset().top
     }, 1200);
   });
 });
@@ -45,7 +45,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
-      scrollTop: $('.flex').offset().top
+      scrollTop: $('.work-link').offset().top
     }, 1200);
   });
 });
