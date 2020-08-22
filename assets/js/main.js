@@ -64,7 +64,7 @@ $(document).ready(function() {
       $('#img1').css("opacity", "1")
     }
   });
-  $('#one, #two, #three, #four, #five, #six').on({
+  $('#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve').on({
     mouseleave: function(){
     $('figcaption').css("height", "0px")
     $('figcaption').css("opacity", "0")
@@ -114,6 +114,60 @@ $(document).ready(function() {
     mouseenter: function(){
       $('#img6').css("height", "125px")
       $('#img6').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#seven').on({
+    mouseenter: function(){
+      $('#img7').css("height", "75px")
+      $('#img7').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#eight').on({
+    mouseenter: function(){
+      $('#img8').css("height", "75px")
+      $('#img8').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#nine').on({
+    mouseenter: function(){
+      $('#img9').css("height", "75px")
+      $('#img9').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#ten').on({
+    mouseenter: function(){
+      $('#img10').css("height", "125px")
+      $('#img10').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#eleven').on({
+    mouseenter: function(){
+      $('#img11').css("height", "125px")
+      $('#img11').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#twelve').on({
+    mouseenter: function(){
+      $('#img12').css("height", "125px")
+      $('#img12').css("opacity", "1")
     }
   })
 });
